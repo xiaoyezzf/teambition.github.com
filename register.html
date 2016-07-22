@@ -37,14 +37,14 @@
                 </div>
             </div>
             <br>
-            <button class="btn1">注 册</button>
+            <button class="btn1">注 册<i class="iii1"></i></button>
             <p class="p2">点击注册,即同意我们的 <a class="a1" href="#">用户隐私条款</a></p>
             <br>
             <hr>
             <br>
-            <button class="btn3 " id="btntologin">以有账号?登录</button>
+            <button class="btn3 " id="btntologin">以有账号?登录<i class="iii3"></i></button>
             <br>
-            <button class="btn5 ">使用第三方账号登录</button>
+            <button class="btn5 ">使用第三方账号登录<i class="iii5"></i></button>
         </form>
 
         <form class="form2" action="" id="sss">
@@ -70,13 +70,13 @@
                 </div>
             </div>
             <br>
-            <button class="btn1">获取短信验证码</button>
+            <button class="btn1 xxx1">获取短信验证码 <i class="iii11"></i></button>
             <br>
             <hr>
             <br>
-            <button class="btn3 ">以有账号?登录</button>
+            <button class="btn3 xxx3">以有账号?登录 <i class="iii33"></i></button>
             <br>
-            <button class="btn5 ">使用第三方账号登录</button>
+            <button class="btn5 xxx5">使用第三方账号登录 <i class="iii55"></i></button>
         </form>
     </div>
 
@@ -116,6 +116,89 @@
     //        document.getElementById("xxx").style.visibility="hidden";
     //        document.getElementById("sss").style.visibility="visible";
     //    }
+
+
+    $(".btn1").mouseenter(function () {
+        $(".iii1").addClass("fa fa-arrow-circle-right ");
+//        $(".btn1").css("background","#aaa")
+//        $(".btn1").css("color","white");
+    })
+
+    $(".btn1").mouseleave(function () {
+        $(".iii1").removeClass("fa fa-arrow-circle-right");
+//        $(".btn1").css("background","white")
+//        $(".btn1").css("color","#aaa");
+    })
+
+    $(".btn3").mouseenter(function () {
+        $(".iii3").addClass("fa fa-arrow-circle-right ");
+        $(".btn3").css("background","#03a9f4");
+        $(".btn3").css("color","white");
+    })
+
+    $(".btn3").mouseleave(function () {
+        $(".iii3").removeClass("fa fa-arrow-circle-right");
+        $(".btn3").css("background","white");
+        $(".btn3").css("color","#03a9f4");
+    })
+
+    $(".btn5").mouseenter(function () {
+        $(".iii5").addClass("fa fa-arrow-circle-right ");
+        $(".btn5").css("background","grey");
+        $(".btn5").css("color","white");
+    })
+
+    $(".btn5").mouseleave(function () {
+        $(".iii5").removeClass("fa fa-arrow-circle-right");
+        $(".btn5").css("background","white");
+        $(".btn5").css("color","#d9d9d9");
+    })
+
+
+
+
+
+
+
+
+
+
+    $(".xxx1").mouseenter(function () {
+        $(".iii11").addClass("fa fa-arrow-circle-right ");
+//        $(".btn1").css("background","#aaa")
+//        $(".btn1").css("color","white");
+    })
+
+    $(".xxx1").mouseleave(function () {
+        $(".iii11").removeClass("fa fa-arrow-circle-right");
+//        $(".btn1").css("background","white")
+//        $(".btn1").css("color","#aaa");
+    })
+
+    $(".xxx3").mouseenter(function () {
+        $(".iii33").addClass("fa fa-arrow-circle-right");
+        $(".btn3").css("background","#03a9f4");
+        $(".btn3").css("color","white");
+    })
+
+    $(".xxx3").mouseleave(function () {
+        $(".iii33").removeClass("fa fa-arrow-circle-right");
+        $(".btn3").css("background","white");
+        $(".btn3").css("color","#03a9f4");
+    })
+
+    $(".xxx5").mouseenter(function () {
+        $(".iii55").addClass("fa fa-arrow-circle-right ");
+        $(".btn5").css("background","grey");
+        $(".btn5").css("color","white");
+    })
+
+    $(".xxx5").mouseleave(function () {
+        $(".iii55").removeClass("fa fa-arrow-circle-right");
+        $(".btn5").css("background","white");
+        $(".btn5").css("color","#d9d9d9");
+    })
+
 </script>
 
 </html>

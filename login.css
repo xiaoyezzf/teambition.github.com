@@ -45,6 +45,7 @@
     width: auto;
     height: auto;
     text-align: center;
+    display: inline-block;
 }
 
 .txtcount {
@@ -80,7 +81,6 @@
 }
 
 .btn2{
-    display:block;
     width: 300px;
     margin: 0 auto;
     height: 46px;
@@ -113,6 +113,15 @@ hr{
     background: white;
     color: #03a9f4;
 }
+
+.aaa1{
+    text-decoration: none;
+    color:#03a9f4 ;
+}
+
+.btn3:hover .aaa1{
+     color:white ;
+ }
 
 .btn4{
     display:block;
