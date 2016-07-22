@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teambition |注册</title>
+    <link rel="stylesheet" href="register.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+</head>
+<body>
+<div class="divmain">
+    <div class="divheader">
+        <a class="home" href="index.html">teambition</a>
+    </div>
+    <div class="divhead">
+
+        <div class="divfangshi">
+            <button class="btnemail" id="btnemail">邮箱注册</button>
+            <button class="btnphone" id="btnphone">手机注册</button>
+        </div>
+
+        <form class="form1" action="" id="xxx">
+            <input class="txtcount" type="text" placeholder=" 您的邮箱">
+            <br>
+            <input class="txtcount" type="text" placeholder=" 您的名字">
+            <br>
+            <input class="txtpas" type="password" placeholder=" 密码(字母,数字,至少6位)">
+            <br>
+            <div class="divyan">
+                <p class="p1">获取短信验证码前,请先点击下图中的自行车</p>
+                <div class="divi"><i class="fa fa-refresh i1"></i></div>
+                <div class="divi2">
+                    <i class="i2 fa fa-graduation-cap fa-2x"></i>
+                    <i class="i2 fa fa-truck fa-2x"></i>
+                    <i class="i2 fa fa-laptop fa-2x"></i>
+                    <i class="i2 fa fa-bicycle fa-2x"></i>
+                    <i class="i2 fa fa-gavel fa-2x"></i>
+                </div>
+            </div>
+            <br>
+            <button class="btn1">注 册</button>
+            <p class="p2">点击注册,即同意我们的 <a class="a1" href="#">用户隐私条款</a></p>
+            <br>
+            <hr>
+            <br>
+            <button class="btn3 " id="btntologin">以有账号?登录</button>
+            <br>
+            <button class="btn5 ">使用第三方账号登录</button>
+        </form>
+
+        <form class="form2" action="" id="sss">
+            <div class="divphone">
+                <div class="divi3"></div>
+                <i class="fa fa-flag fa-2x i3"></i>
+                <i class="fa fa-chevron-down fa-2x i3"></i>
+                <div class="divnum">+86</div>
+                <div class="dictext">
+                    <input class="txtphone" type="text" placeholder="手机号">
+                </div>
+            </div>
+
+            <div class="divyan">
+                <p class="p1">获取短信验证码前,请先点击下图中的自行车</p>
+                <div class="divi"><i class="fa fa-refresh i1"></i></div>
+                <div class="divi2">
+                    <i class="i2 fa fa-graduation-cap fa-2x"></i>
+                    <i class="i2 fa fa-truck fa-2x"></i>
+                    <i class="i2 fa fa-laptop fa-2x"></i>
+                    <i class="i2 fa fa-bicycle fa-2x"></i>
+                    <i class="i2 fa fa-gavel fa-2x"></i>
+                </div>
+            </div>
+            <br>
+            <button class="btn1">获取短信验证码</button>
+            <br>
+            <hr>
+            <br>
+            <button class="btn3 ">以有账号?登录</button>
+            <br>
+            <button class="btn5 ">使用第三方账号登录</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+
+<script src="js/jquery3.1.0.js"></script>
+
+<script>
+    //    $(".btn1").mouseeter(function () {
+    //        $("btn1").css({})
+    //    })
+
+    $("#btnemail").click(function () {
+        $("#xxx")[0].style.visibility = "visible";
+        $("#sss")[0].style.visibility = "hidden";
+        $(".btnphone").addClass("btnphone");
+        $(".btnemail").addClass("btnemail");
+        $(".btnphone").removeClass("btnphone2");
+        $(".btnemail").removeClass("btnemail2");
+    })
+
+    $("#btnphone").click(function () {
+        $("#xxx")[0].style.visibility = "hidden";
+        $("#sss")[0].style.visibility = "visible";
+        $(".btnphone").addClass("btnphone2");
+        $(".btnemail").addClass("btnemail2");
+    })
+
+    $("#btntologin").click(function () {
+        window.location.href="login.html";
+    })
+
+
+    //    function my1() {
+    //        document.getElementById("xxx").style.visibility="hidden";
+    //        document.getElementById("sss").style.visibility="visible";
+    //    }
+</script>
+
+</html>

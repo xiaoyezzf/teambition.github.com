@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divmain {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.divheader {
+    width: 100%;
+    height: 190px;
+    position: relative;
+    background: url(https://dn-st.teambition.net/account/static/images/topbanner.3dd48b2a.png);
+    text-align: center;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 56px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.home:visited {
+    color: #fff;
+}
+
+.divhead {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form1{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.txtcount {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    font-size: 16px;
+}
+
+.txtpas {
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    font-size: 16px;
+}
+
+.btn1{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #03a9f4;
+    font-size: 16px;
+    background: #03a9f4;
+    color: white;
+}
+
+.btn2{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #4EAF46;
+    font-size: 16px;
+    background: white;
+    color: #4EAF46;
+}
+
+.coc{
+    color:#4EAF46;
+    z-index: 2;
+}
+
+hr{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn3{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #03a9f4;
+    font-size: 16px;
+    background: white;
+    color: #03a9f4;
+}
+
+.btn4{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: white;
+    color: #aaa;
+}
+
+.btn5{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: white;
+    color: #aaa;
+}

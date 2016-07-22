@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teambition |登录</title>
+    <link rel="stylesheet" href="login.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+</head>
+<body>
+<div class="divmain">
+    <div class="divheader">
+        <a class="home" href="index.html">teambition</a>
+    </div>
+    <div class="divhead">
+        <form class="form1" action="">
+            <input class="txtcount" type="text" placeholder=" 邮箱/手机号">
+            <br>
+            <input class="txtpas" type="password" placeholder=" 密码">
+            <br>
+            <button class="btn1">登录</button>
+            <br>
+            <button class="btn2 fa fa-weixin coc"> &nbsp;&nbsp;&nbsp;&nbsp;使用 微信 登录</button>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <button class="btn3 " id="btntore" onclick="fun1()">还没有账号?免费注册</button>
+            <br>
+            <button class="btn4 ">忘记密码?重置</button>
+            <br>
+            <button class="btn5 ">使用第三方账号登录</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+
+<script src="js/jquery3.1.0.js"></script>
+
+<script>
+    function fun1() {
+        window.location.href="register.html";
+    }
+</script>
+
+</html>

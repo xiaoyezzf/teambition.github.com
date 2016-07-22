@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.divmain {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.divheader {
+    width: 100%;
+    height: 190px;
+    position: relative;
+    background: url(https://dn-st.teambition.net/account/static/images/topbanner.3dd48b2a.png);
+    text-align: center;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 56px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.home:visited {
+    color: #fff;
+}
+
+.divhead {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.form1 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    visibility: visible;
+    margin: 30px auto;
+}
+
+.txtcount {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    font-size: 16px;
+}
+
+.txtpas {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid darkgray;
+    font-size: 16px;
+}
+
+.btn1 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #03a9f4;
+    font-size: 16px;
+    background: #03a9f4;
+    color: white;
+}
+
+.btn2 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #4EAF46;
+    font-size: 16px;
+    background: white;
+    color: #4EAF46;
+}
+
+.coc {
+    color: #4EAF46;
+    z-index: 2;
+}
+
+hr {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn3 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #03a9f4;
+    font-size: 16px;
+    background: white;
+    color: #03a9f4;
+}
+
+.btn4 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: white;
+    color: #aaa;
+}
+
+.btn5 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: white;
+    color: #aaa;
+}
+
+.divyan {
+    display: block;
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    background: white;
+    color: #aaa;
+    margin: 30px auto;
+    position: relative;
+}
+
+.p1 {
+    text-align: left;
+    padding: 8px;
+}
+
+.i1 {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    color: #0099FF;
+}
+
+.i2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.p2 {
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+}
+
+.a1 {
+    color: #0099FF;
+    text-decoration: none;
+}
+
+.form2 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    visibility: hidden;
+    position: relative;
+    top: -620px;
+}
+
+.btnemail {
+    box-shadow: none;
+    background: 0 0;
+    color: #03a9f4;
+    z-index: 2333;
+    border: 1px solid #03a9f4;
+    padding: 8px 46px;
+    font-size: 14px;
+}
+
+.btnphone {
+    color: #d9d9d9;
+    font-size: 14px;
+    box-shadow: none;
+    background: 0 0;
+    z-index: 2333;
+    border: 1px solid #d9d9d9;
+    padding: 8px 46px;
+    margin-left: -10px;
+}
+
+.btnemail2 {
+    color: #d9d9d9;
+    font-size: 14px;
+    box-shadow: none;
+    background: 0 0;
+    z-index: 2333;
+    border: 1px solid #d9d9d9;
+    padding: 8px 46px;
+}
+
+.btnphone2 {
+    box-shadow: none;
+    background: 0 0;
+    color: #03a9f4;
+    z-index: 2333;
+    border: 1px solid #03a9f4;
+    padding: 8px 46px;
+    font-size: 14px;
+    margin-left: -10px;
+}
+
+.divphone {
+    width: 300px;
+    height: 46px;
+    border: 1px solid #d9d9d9;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.divi3 {
+    display: inline-block;
+    width: 68px;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.divnum {
+    display: inline-block;
+    width: 49px;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    padding-top: 15px;
+    border-left: 1px solid  #d9d9d9;
+}
+
+.dictext {
+    display: inline-block;
+    width: 183px;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+
+.i3 {
+    float: left;
+    vertical-align: middle;
+}
+
+.txtphone {
+    width: 183px;
+    height: 94%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
