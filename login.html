@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teambition |登录</title>
+    <link rel="stylesheet" href="login.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+</head>
+<body>
+<div class="divmain">
+    <div class="divheader">
+        <a class="home" href="index.html">teambition</a>
+    </div>
+    <div class="divhead">
+        <form class="form1" >
+            <input class="txtcount" type="text" placeholder=" 邮箱/手机号">
+            <br>
+            <input class="txtpas" type="password" placeholder=" 密码">
+            <br>
+            <button class="btn1" id="btnlogin">登录 <i id="ilogin"></i></button>
+            <br>
+            <button class="btn2 fa fa-weixin coc"> &nbsp;&nbsp;&nbsp;&nbsp;<b id="xxx">使用 微信 登录</b></button>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <button class="btn3 " id="btntore" ><a class="aaa1" href="register.html">还没有账号?免费注册</a><i id="i3"></i></button>
+            <br>
+            <button class="btn4 ">忘记密码?重置<i id="i4"></i></button>
+            <br>
+            <button class="btn5 ">使用第三方账号登录<i id="i5"></i></button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+
+<script src="js/jquery3.1.0.js"></script>
+
+<script>
+//    $('#btntore').click(function () {
+//        window.location.href="register.html";
+//    })
+
+    $("#btnlogin").mouseenter(function () {
+        $("#ilogin").addClass("fa fa-arrow-circle-right");
+    })
+
+    $("#btnlogin").mouseleave(function () {
+        $("#ilogin").removeClass("fa fa-arrow-circle-right");
+    })
+
+    $(".btn2").mouseenter(function () {
+        $(".btn2").css("background","#4EAF46");
+        $("#xxx").remove();
+        $(".btn2").css("color","white");
+    })
+
+    $(".btn2").mouseleave(function () {
+        $(".btn2").css("background","white")
+        $(".btn2").text("　使用 微信 登录");
+        $(".btn2").css("color","#4EAF46");
+    })
+
+    $(".btn3").mouseenter(function () {
+        $("#i3").addClass("fa fa-arrow-circle-right");
+        $(".btn3").css("background","#03a9f4")
+        $(".btn3").css("color","white");
+    })
+
+    $(".btn3").mouseleave(function () {
+        $("#i3").removeClass("fa fa-arrow-circle-right");
+        $(".btn3").css("background","white")
+        $(".btn3").css("color","#03a9f4");
+    })
+
+    $(".btn4").mouseenter(function () {
+        $("#i4").addClass("fa fa-arrow-circle-right");
+        $(".btn4").css("background","#aaa")
+        $(".btn4").css("color","white");
+    })
+
+    $(".btn4").mouseleave(function () {
+        $("#i4").removeClass("fa fa-arrow-circle-right");
+        $(".btn4").css("background","white")
+        $(".btn4").css("color","#aaa");
+    })
+
+    $(".btn5").mouseenter(function () {
+        $("#i5").addClass("fa fa-arrow-circle-right ");
+        $(".btn5").css("background","#aaa")
+        $(".btn5").css("color","white");
+    })
+
+    $(".btn5").mouseleave(function () {
+        $("#i5").removeClass("fa fa-arrow-circle-right");
+        $(".btn5").css("background","white")
+        $(".btn5").css("color","#aaa");
+    })
+
+
+
+</script>
+
+</html>
