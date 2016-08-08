@@ -3,12 +3,15 @@
     padding:0;
 }
 
+
 .alogin:hover{
     color:white;
 }
+
 .are:hover{
     color:white;
 }
+
 
 a:visited{
     color: black;
